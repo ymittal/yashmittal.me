@@ -31,6 +31,9 @@ body {
 }
 
 .container {
+    overflow: hidden;
+    height: 100%;
+    padding: 48px;
     color: white;
     font-size: 24px;
 }
@@ -40,12 +43,43 @@ body {
     top: 30%;
 }
 
-.salutation {
-	opacity: 0.6;
+.cover .salutation {
+    opacity: 0.6;
 }
 
-.greeting {
+.cover .greeting {
     font-size: 72px;
     line-height: 1.2;
     padding-bottom: 36px;
+}
+
+.icon {
+    display: inline-block;
+    /* TODO: fix this */
+    margin-right: 16px;
+    height: 24px;
+    width: 24px;
+    transition: opacity .25s ease-in-out;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.icon-github {
+    background-image: url('../icons/github.svg');
+}
+
+.icon-fb {
+    background-image: url('../icons/facebook.svg');
+}
+
+.icon-linkedin {
+    background-image: url('../icons/linkedin.svg');
+}
+
+.social-icons {
+    padding: inherit;
+    position: absolute;
+    bottom: 0;
 }
