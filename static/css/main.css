@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/Brandon_reg.otf');
+}
+
 html,
 body {
     height: 100%;
+    font-family: 'Brandon Grotesque';
 }
 
 body {
@@ -27,7 +33,7 @@ body {
 }
 
 ::selection {
-    background: #77ffcd;
+    background: rgba(52, 179, 171);
 }
 
 .container {
@@ -45,13 +51,13 @@ body {
 }
 
 .cover .salutation {
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 .cover .greeting {
     font-size: 72px;
-    line-height: 1.2;
-    padding-bottom: 36px;
+    line-height: 1.4;
+    margin-bottom: 36px;
 }
 
 .icon {
