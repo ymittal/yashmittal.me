@@ -6,7 +6,8 @@
     <!-- meta -->
     <meta charset="utf-8">
     <meta name="description" content="Yash Mittal's personal website. He's a senior studying Computer Science at Bucknell University.">
-    <meta name="keywords" content="yash, mittal, yash mittal, yash mittal bucknell, bucknell, bucknell cs, acm, bucknell presidential fellow, edinburgh uni, study abroad, AITcomputer science, bhiwani, india, pinterest intern, pintern, akamai intern, google codeu, android">
+    <meta name="keywords" content="yash, mittal, yash mittal, bucknell, bucknell cs, acm, bucknell presidential fellow, edinburgh uni, study abroad, bhiwani, india, pinterest intern, akamai intern, google codeu, android">
+    <meta name="author" content="Yash Mittal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Yash Mittal">
     <meta property="og:type" content="website">
@@ -18,38 +19,41 @@
     <link rel="stylesheet" href="static/css/main.css">
     </link>
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> -->
 </head>
 
 <body>
-    <div class="container">
-        <div class="cover">
-            <div class="salutation">
-                Hi there!
+    <div id="app">
+        <div class="container">
+            <div class="cover">
+                <div class="salutation">
+                    {{ salutation }}
+                </div>
+                <div class="greeting">
+                    How's your day?
+                </div>
+                <div>
+                    <p>
+                        I'm Yash.<br>
+                        Clean coder. A sight to behold.
+                    </p>
+                </div>
             </div>
-            <div class="greeting">
-                How's your day?
-            </div>
-            <div>
-                <p>
-                    I'm Yash.<br>
-                    Clean coder. A sight to behold.
-                </p>
-            </div>
-        </div>
-        <div class="social-icons">
-            <a href="http://github.com/ymittal" target="_blank">
+            <div class="social-icons">
+                <a href="http://github.com/ymittal" target="_blank">
                     <span class="icon icon-github">
                 </a>
-            <a href="https://www.facebook.com/imyashmittal" target="_blank">
+                <a href="https://www.facebook.com/imyashmittal" target="_blank">
                     <span class="icon icon-fb">
                 </a>
-            <a href="https://www.linkedin.com/in/ymittal" target="_blank">
+                <a href="https://www.linkedin.com/in/ymittal" target="_blank">
                     <span class="icon icon-linkedin">
                 </a>
+            </div>
         </div>
     </div>
 </body>
+<script src="https://unpkg.com/vue"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128777486-1"></script>
 <script>
@@ -60,7 +64,8 @@ gtag('js', new Date());
 
 gtag('config', 'UA-128777486-1');
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/js/main.js"></script>
 
 </html>
