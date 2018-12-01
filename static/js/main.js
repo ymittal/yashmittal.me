@@ -7,7 +7,7 @@ const app = new Vue({
         cookies: {
             'NUM_VISITS': 'num_visits'
         },
-        salutations: [{
+        visitMessages: [{
             "minVisits": 5,
             "text": [
                 "Ah, my secret admirer!",
@@ -28,14 +28,53 @@ const app = new Vue({
                 "Hi there!"
             ]
         }],
-        salutation: "Hi there!"
+        greetings: [{
+                "startHr": 21,
+                "text": [
+                    "Plans tonight?",
+                    "Sweet dreams",
+                ]
+            }, {
+                "startHr": 17,
+                "text": [
+                    "Evening tea?",
+                    "Snack time?",
+                    "Have a good evening"
+                ]
+            }, {
+                "startHr": 12,
+                "text": [
+                    "Lunch time?",
+                    "How's your day?",
+                ]
+            },
+            {
+                "startHr": 5,
+                "text": [
+                    "Have a bright day!",
+                    "Be happy today",
+                    "Good morning!"
+                ]
+            },
+            {
+                "startHr": 1,
+                "text": [
+                    "Sleep tight!",
+                    "Working late?",
+                    "Howdy nightowl!"
+                ]
+            }
+        ],
+        visitMsg: "Hi there!",
+        greeting: "How's your day?"
     },
     created: function() {
         var visits = this.getCookie(this.cookies.NUM_VISITS);
         visits = visits ? parseInt(visits) + 1 : 1;
         this.setCookie(this.cookies.NUM_VISITS, visits, null);
 
-        this.setSalutation(visits);
+        this.setVisitMessage(visits);
+        this.setGreeting();
     },
     methods: {
         setCookie: function(key, value, days) {
@@ -66,10 +105,19 @@ const app = new Vue({
         pickRandom: function(arr) {
             return arr[Math.floor(Math.random() * arr.length)];
         },
-        setSalutation: function(numVisits) {
-            for (var i = 0; i < this.salutations.length; ++i) {
-                if (numVisits >= this.salutations[i].minVisits) {
-                    this.salutation = this.pickRandom(this.salutations[i].text);
+        setVisitMessage: function(numVisits) {
+            for (var i = 0; i < this.visitMessages.length; ++i) {
+                if (numVisits >= this.visitMessages[i].minVisits) {
+                    this.visitMsg = this.pickRandom(this.visitMessages[i].text);
+                    break;
+                }
+            }
+        },
+        setGreeting: function() {
+            const hr = new Date().getHours();
+            for (var i = 0; i < this.greetings.length; ++i) {
+                if (hr >= this.greetings[i].startHr) {
+                    this.greeting = this.pickRandom(this.greetings[i].text);
                     break;
                 }
             }
