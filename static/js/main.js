@@ -12,7 +12,7 @@ const app = new Vue({
             "text": [
                 "Ah, my secret admirer!",
                 "Welcome again.",
-                "Hey, you're back!",
+                "Look who's back.",
                 "Good to see you again."
             ]
         }, {
@@ -32,7 +32,7 @@ const app = new Vue({
                 "startHr": 21,
                 "text": [
                     "Plans tonight?",
-                    "Sweet dreams",
+                    "How's your night?",
                 ]
             }, {
                 "startHr": 17,
@@ -53,15 +53,14 @@ const app = new Vue({
                 "text": [
                     "Have a bright day!",
                     "Be happy today",
-                    "Good morning!"
+                    "Good morning"
                 ]
             },
             {
                 "startHr": 1,
                 "text": [
-                    "Sleep tight!",
                     "Working late?",
-                    "Howdy nightowl!"
+                    "Howdy night owl!"
                 ]
             }
         ],
