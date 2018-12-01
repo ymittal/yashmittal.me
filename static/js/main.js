@@ -10,7 +10,9 @@ const app = new Vue({
         salutations: [{
             "minVisits": 5,
             "text": [
-                "Ah, my secret admirer?"
+                "Ah, my secret admirer?",
+                "Welcome again.",
+                "Hey, you're back!"
             ]
         }, {
             "minVisits": 2,
