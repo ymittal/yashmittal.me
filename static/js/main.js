@@ -45,7 +45,7 @@ const app = new Vue({
             date.setTime(date.getTime() + (days * MILLISEC_IN_DAY));
             document.cookie = key + "=" + escape(value) +
                 "; expires=" + date.toUTCString() +
-                "; path=/; domain=localhost";
+                "; path=/";
         },
         getCookie: function(key) {
             var keyEq = key + "=";
