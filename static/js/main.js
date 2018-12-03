@@ -45,7 +45,7 @@ const app = new Vue({
                 "startHr": 12,
                 "text": [
                     "Lunch time?",
-                    "How's your day?",
+                    "How's your day?"
                 ]
             },
             {
