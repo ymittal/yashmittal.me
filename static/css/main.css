@@ -19,17 +19,9 @@ body {
 
 /* background gradient animation */
 @keyframes BackgroundGradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 ::selection {
@@ -38,7 +30,6 @@ body {
 
 .container {
     overflow: hidden;
-    height: 100%;
     padding: 48px;
     color: white;
     font-size: 24px;
@@ -55,7 +46,7 @@ body {
 }
 
 .cover .greeting {
-    font-size: 72px;
+    font-size: 3em;
     margin-bottom: 36px;
 }
 
@@ -68,14 +59,11 @@ body {
     transition: opacity .25s ease-in-out;
 }
 
-
-
 @media (hover: hover) {
     .icon:hover {
         opacity: 0.5;
     }
 }
-
 
 .icon-github {
     background-image: url('../icons/github.svg');
