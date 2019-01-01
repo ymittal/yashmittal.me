@@ -1,11 +1,16 @@
-
 html,
 body {
   font-family: 'Brandon Grotesque';
+  font-size: 18px;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.post-li {
+  display: block;
+  text-align: center;
 }
 
 .post-title {
@@ -22,12 +27,12 @@ a:hover {
   letter-spacing: 0.06em;
 
   padding: 15px;
-  margin: 15px 0 25px;
+  margin: 20px 0 25px;
 }
 
 .post-content {
   p {
-    text-align: justify;
+    // text-align: justify;
     margin-bottom: 25px;
   }
 }
