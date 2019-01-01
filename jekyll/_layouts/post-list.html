@@ -9,7 +9,7 @@ layout: blog-default
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in site.posts reversed -%}
-      <li class="post-li">
+      <li class="post-list-item">
         <h1 class="post-title">
           <a href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -23,13 +23,14 @@ layout: blog-default
             • <span>{{ post.length }} read</span>
           {%- endif -%}
         </p>
-        <div class="post-content">
+        <div class="post-content post-list-item-excerpt">
           <p>
           {%- if post.excerpt -%}
             {{ post.excerpt }}
           {%- endif -%}
           </p>
         </div>
+        <img class="post-divider" src="/assets/img/divider.png">
       </li>
       {%- endfor -%}
     </ul>

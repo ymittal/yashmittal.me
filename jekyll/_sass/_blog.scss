@@ -1,21 +1,23 @@
-html,
-body {
-  font-family: 'Brandon Grotesque';
-  font-size: 18px;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.post-li {
+.post-list-item {
   display: block;
   text-align: center;
+}
+
+.post-list-item-excerpt {
+  text-align: left;
 }
 
 .post-title {
   display: block;
   text-align: center;
+}
+
+.post-title a {
+  color: #1e836c;
+}
+
+.post-title a:hover {
+    color: #545454;
 }
 
 .post-meta {
@@ -46,4 +48,9 @@ a:hover {
 .post-content-location {
   font-variant: small-caps;
   letter-spacing: 0.04em;
+}
+
+.post-divider {
+  display: block;
+  margin: 0 auto;
 }
