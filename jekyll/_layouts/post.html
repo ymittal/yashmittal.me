@@ -1,0 +1,24 @@
+---
+layout: blog-default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%A, %B %-d, %Y" }}
+      </time>
+      {%- if page.length -%}
+        • <span>{{ page.length }} read</span>
+      {%- endif -%}
+  	</p>
+  </header>
+
+  <div class="post-content">
+  	{%- if page.location -%}
+  		<span class="post-content-location">{{ page.location }}</span><span class="post-content-location-divider">—</span>
+  	{%- endif -%}{{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -1,0 +1,35 @@
+.post-title {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.post-meta {
+    display: block;
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+
+    padding: 15px;
+    margin: 15px 0 25px;
+}
+
+.post-content {
+    p {
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+}
+
+.post-content-location,
+.post-content-location-divider {
+    float: left;
+    margin-right: 4px;
+}
+
+.post-content-location {
+    font-variant: small-caps;
+    letter-spacing: 0.04em;
+}
