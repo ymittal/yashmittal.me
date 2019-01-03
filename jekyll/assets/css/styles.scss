@@ -8,6 +8,12 @@
   src: url('../fonts/Brandon_reg.otf');
 }
 
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/Brandon_bld.otf');
+	font-weight: bold;
+}
+
 // Import partials from `_sass`
 @import "base",
 		"main",
