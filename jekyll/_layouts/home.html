@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
-{%- include head.html -%}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<body>
-	<div class="home">
+  {%- include head.html -%}
+
+  <body>
+
     {%- include header.html -%}
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        Welcome to my place on the web!
+        Welcome to my home on the web!
       </div>
     </main>
+
     {%- include footer.html -%}
-	</div>
-</body>
+
+  </body>
 
 </html>

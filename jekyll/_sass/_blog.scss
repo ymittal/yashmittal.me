@@ -4,12 +4,13 @@
 }
 
 .post-list-item-excerpt {
-  text-align: left;
+  // text-align: justify;
 }
 
 .post-title {
   display: block;
   text-align: center;
+  letter-spacing: 0.01em;
 }
 
 .post-title a {
@@ -22,8 +23,8 @@
 
 .post-meta {
   display: block;
-  border-top: 1px solid #383838;
-  border-bottom: 1px solid #383838;
+  border-top: 1px solid #38383820;
+  border-bottom: 1px solid #38383820;
   text-align: center;
   font-variant: small-caps;
   letter-spacing: 0.06em;
@@ -34,8 +35,8 @@
 
 .post-content {
   p {
-    // text-align: justify;
     margin-bottom: 25px;
+    // text-align: left;
   }
 }
 
