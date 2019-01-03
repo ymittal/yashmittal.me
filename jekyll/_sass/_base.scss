@@ -14,11 +14,38 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #545454;
-    transition: color 0.5s ease-in-out;
+    color: #545454 !important;
+    transition: color 0.25s ease-in-out;
 }
 
 ::selection {
     background: #e0ebe8;
     color: #545454;
+}
+
+.site-header {
+    background: #deece8;
+    border-bottom: none;
+}
+
+.site-header .page-link {
+    color: #1e836c;
+}
+
+.social-media-list {
+    margin-top: 32px;
+}
+
+.social-media-list li {
+    display: inline;
+}
+
+.social-media-list .svg-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.social-media-list .svg-icon:hover {
+    opacity: 0.75;
+    transition: opacity 0.2s ease-in-out;
 }

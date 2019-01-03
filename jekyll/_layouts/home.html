@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html>
+{%- include head.html -%}
 
-  {%- include head.html -%}
-
-  <body>
-
+<body>
     {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        Welcome to my home on the web!
-      </div>
+        <div id="app" class="wrapper">
+          <div class="cover">
+            <div class="visit-msg">
+                <% visitMsg %>
+            </div>
+            <h1 class="greeting">
+                <% greeting %>
+            </h1>
+            <div>I'm Yash.</div>
+            <div>Software engineer. A sight to behold.</div>
+          </div>
+
+        {%- include social.html -%}
+
+        </div>
     </main>
+    <!-- {%- include footer.html -%} -->
+</body>
 
-    {%- include footer.html -%}
-
-  </body>
+{%- include scripts.html -%}
 
 </html>

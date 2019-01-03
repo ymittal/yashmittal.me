@@ -1,0 +1,29 @@
+html,
+body,
+#app {
+    height: 100%;
+}
+
+#app {
+    overflow: hidden;
+    // padding: 0 48px 0 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#app>.cover {
+    font-size: 1.25em;
+    color: #1e836c;
+}
+
+.visit-msg {
+    // opacity: 0.85;
+    color: #1e836c;
+}
+
+.greeting {
+    font-size: 3em;
+    margin-bottom: 36px;
+}
