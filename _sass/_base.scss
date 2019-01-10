@@ -28,6 +28,13 @@ a:hover {
     color: #545454;
 }
 
+@media screen and (max-width: 800px) {
+    .wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 .site-header {
     background: #deece8;
     border-bottom: none;
