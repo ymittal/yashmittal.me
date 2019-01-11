@@ -1,0 +1,58 @@
+.places {
+  text-align: center;
+
+  h2 {
+    // font-variant: small-caps;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: white;
+    margin: 0 1px;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+  }
+
+  .highlight::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 110%;
+    height: 80%;
+    top: 10%;
+    left: -5%;
+    z-index: -1;
+    background-color: #AE9EB6;
+  }
+}
+
+.jqvmap {
+  height: 480px;
+  text-align: center;
+  background-color: #F7F8F9;
+  padding: 8px;
+}
+
+#vmap {
+  top: 4px;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .jqvmap {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .jqvmap {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jqvmap {
+    height: 260px;
+  }
+}

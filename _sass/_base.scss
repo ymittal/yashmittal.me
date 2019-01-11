@@ -1,7 +1,7 @@
 body {
-    font-family: 'Brandon Grotesque';
-    font-size: 18px;
-    color: #545454;
+  font-family: 'Brandon Grotesque';
+  font-size: 18px;
+  color: #545454;
 }
 
 h1,
@@ -10,66 +10,66 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1e836c;
+  color: #1e836c;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #545454 !important;
-    transition: color 0.25s ease-in-out;
+  text-decoration: none;
+  color: #545454 !important;
+  transition: color 0.25s ease-in-out;
 }
 
 ::selection {
-    background: #e0ebe8;
-    color: #545454;
+  background: #e0ebe8;
+  color: #545454;
 }
 
 @media screen and (max-width: 800px) {
-    .wrapper {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+  .wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .site-header {
-    background: #deece8;
-    border-bottom: none;
+  background: #deece8;
+  border-bottom: none;
 }
 
 .site-header .page-link {
-    color: #1e836c;
+  color: #1e836c;
 }
 
 .social-media-list {
-    margin: 16px 0 16px 0;
+  margin: 16px 0 16px 0;
 }
 
 .social-media-list li {
-    display: inline;
+  display: inline;
 }
 
 .social-media-list .svg-icon {
-    width: 32px;
-    height: 32px;
-    // fill: #545454;
+  width: 32px;
+  height: 32px;
+  // fill: #545454;
 }
 
 .social-media-list .svg-icon:hover {
-    opacity: 0.75;
-    transition: opacity 0.2s ease-in-out;
+  opacity: 0.75;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .site-footer {
-    padding: 0;
-    border-top: none;
-    text-align: center;
+  padding: 0;
+  border-top: none;
+  text-align: center;
 }
 
 .footer-author>a {
-    color: #1e836c;
-    font-weight: bold;
+  color: #1e836c;
+  font-weight: bold;
 }

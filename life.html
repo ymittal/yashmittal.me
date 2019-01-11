@@ -1,0 +1,65 @@
+---
+title: Life
+permalink: /life/
+---
+<!DOCTYPE html>
+<html>
+
+{%- include head.html -%}
+
+<link rel="stylesheet" href="/assets/css/jqvmap.min.css">
+
+<body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+        <h1 class="page-heading wrapper">Life</h1>
+        <div class="places wrapper">
+            <h2>The places I have been</h2>
+            <p>I am lucky enough to have <span class="highlight places-live">lived</span> in and <span class="highlight places-travel">traveled</span> to many places.</p>
+        </div>
+        <div class="jqvmap">
+            <div id="vmap"></div>
+        </div>
+    </main>
+    <!-- {%- include footer.html -%} -->
+</body>
+
+{%- include scripts.html -%}
+
+<script type="text/javascript" src="/assets/js/jquery.vmap.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.vmap.world.js"></script>
+
+<script>
+// region codes: https://github.com/10bestdesign/jqvmap/blob/master/REGIONS.md
+jQuery('#vmap').vectorMap({
+    map: 'world_en',
+    hoverOpacity: 0.75,
+    enableZoom: false,
+    backgroundColor: null,
+    borderColor: '#ffffff',
+    borderOpacity: 0.1,
+    borderWidth: 0.5,
+    color: '#C8CCDA',   // unselected
+    selectedColor: '#AE9EB6',
+    selectedRegions: [
+        'BE', // Belgium
+        'CZ', // Czech
+        'EG', // Egypt
+        'FR', // France
+        'DE', // Germany
+        'HU', // Hungary
+        'IN', // India
+        'MX', // Mexico
+        'NL', // Netherlands
+        'PL', // Poland
+        'SK', // Slovakia
+        'GB', // UK
+        'US', // USA
+    ],
+    onRegionClick: function(event, code, region) {
+        event.preventDefault();
+    }
+});
+</script>
+
+</html>
