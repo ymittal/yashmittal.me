@@ -13,7 +13,7 @@ permalink: /life/
         <h1 class="page-heading wrapper">Life</h1>
         <div class="places wrapper">
             <h2>The places I have been</h2>
-            <p>I am from <strong>Bhiwani</strong>, a mid-sized North-Indian city few hours west of New Delhi. I've been lucky to have <span class="places-live">lived</span> in and <span class="places-travel">traveled</span> to many places. Out of all cities I've visited, I highly recommend Edinburgh, Scotland and Budapest, Hungary.</p>
+            <p>I am from <strong>Bhiwani</strong>, a mid-sized North-Indian city few hours west of New Delhi. I've been lucky to have <span class="highlight places-live">lived</span> in and <span class="highlight places-travel">traveled</span> to many places. Out of all cities I've visited, I highly recommend Edinburgh and Budapest.</p>
         </div>
         <div class="jqvmap">
             <div id="vmap"></div>
@@ -24,7 +24,10 @@ permalink: /life/
 {%- include scripts.html -%}
 <script type="text/javascript" src="/assets/js/jquery.vmap.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.vmap.world.js"></script>
+
 <script>
+const COLOR_LIVE = '#9093B2';
+const COLOR_TRAVEL = '#AE9EB6';
 // region codes: https://github.com/10bestdesign/jqvmap/blob/master/REGIONS.md
 jQuery('#vmap').vectorMap({
     map: 'world_en',
@@ -34,23 +37,22 @@ jQuery('#vmap').vectorMap({
     borderColor: '#ffffff',
     borderOpacity: 0.1,
     borderWidth: 0.5,
-    color: '#C8CCDA', // unselected
-    selectedColor: '#AE9EB6',
-    selectedRegions: [
-        'BE', // Belgium
-        'CZ', // Czech
-        'EG', // Egypt
-        'FR', // France
-        'DE', // Germany
-        'HU', // Hungary
-        'IN', // India
-        'MX', // Mexico
-        'NL', // Netherlands
-        'PL', // Poland
-        'SK', // Slovakia
-        'GB', // UK
-        'US', // USA
-    ],
+    color: '#C8CCDA',   // unselected
+    colors: {
+        'be': COLOR_TRAVEL, // Belgium
+        'cz': COLOR_TRAVEL, // Czech
+        'eg': COLOR_TRAVEL, // Egypt
+        'fr': COLOR_TRAVEL, // France
+        'de': COLOR_TRAVEL, // Germany
+        'hu': COLOR_LIVE,   // Hungary
+        'in': COLOR_LIVE,   // India
+        'mx': COLOR_TRAVEL, // Mexico
+        'nl': COLOR_TRAVEL, // Netherlands
+        'pl': COLOR_TRAVEL, // Poland
+        'sk': COLOR_TRAVEL, // Slovakia
+        'gb': COLOR_LIVE,   // UK
+        'us': COLOR_LIVE,   // USA
+    },
     onRegionClick: function(event, code, region) {
         event.preventDefault();
     }

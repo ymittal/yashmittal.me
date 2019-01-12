@@ -1,11 +1,8 @@
 .places {
   text-align: center;
 
-  h2 {
-    // font-variant: small-caps;
-  }
-
   .highlight {
+    font-weight: bold;
     color: white;
     margin: 0 1px;
     position: relative;
@@ -22,6 +19,13 @@
     top: 10%;
     left: -5%;
     z-index: -1;
+  }
+
+  .places-live::after {
+    background-color: #9093B2;
+  }
+
+  .places-travel::after {
     background-color: #AE9EB6;
   }
 
