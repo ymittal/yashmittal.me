@@ -14,7 +14,7 @@
 }
 
 .post-title a {
-  color: #1e836c;
+  color: $primary-color;
 }
 
 .post-meta {
@@ -56,12 +56,24 @@
 }
 
 .right-arrow {
-  color: #545454;
+  color: $text-color;
   margin-left: 6px;
   display: inline-block;
   transition: transform 0.3s ease-in;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+      to right,
+      $primary-color,
+      $primary-color 50%,
+      $text-color 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
 }
 
 .right-arrow:hover {
   transform: translateX(4px);
+  transition: all 0.8s cubic-bezier(0.000, 0.000, 0.230, 1);
+  background-position: 0%;
 }

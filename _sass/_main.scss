@@ -15,12 +15,12 @@ body,
 
 #app>.cover {
   font-size: 1.25em;
-  color: #1e836c;
+  color: $primary-color;
 }
 
 .visit-msg {
   // opacity: 0.85;
-  color: #1e836c;
+  color: $primary-color;
 }
 
 .greeting {

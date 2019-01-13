@@ -1,7 +1,7 @@
 body {
   font-family: 'Brandon Grotesque';
   font-size: 18px;
-  color: #545454;
+  color: $text-color;
 }
 
 h1,
@@ -10,22 +10,23 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e836c;
+  color: $primary-color;
 }
 
 a {
+  color: $primary-color !important;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: #545454 !important;
+  color: $text-color !important;
   transition: color 0.25s ease-in-out;
 }
 
 ::selection {
-  background: #e0ebe8;
-  color: #545454;
+  background: $text-selection-bg;
+  color: $text-color;
 }
 
 @media screen and (max-width: 800px) {
@@ -36,12 +37,8 @@ a:hover {
 }
 
 .site-header {
-  background: #deece8;
+  background: $header-bg;
   border-bottom: none;
-}
-
-.site-header .page-link {
-  color: #1e836c;
 }
 
 .social-media-list {
@@ -70,6 +67,5 @@ a:hover {
 }
 
 .footer-author>a {
-  color: #1e836c;
   font-weight: bold;
 }
