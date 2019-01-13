@@ -54,3 +54,14 @@
 .site-footer .social-media-list {
   padding-left: 15px;
 }
+
+.right-arrow {
+  color: #545454;
+  margin-left: 6px;
+  display: inline-block;
+  transition: transform 0.3s ease-in;
+}
+
+.right-arrow:hover {
+  transform: translateX(4px);
+}

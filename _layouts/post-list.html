@@ -24,11 +24,9 @@ layout: blog-default
           {%- endif -%}
         </p>
         <div class="post-content post-list-item-excerpt">
-          <p>
           {%- if post.excerpt -%}
-            {{ post.excerpt }}
+            {{ post.excerpt | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}"><span class="right-arrow">&#10230;</span></a>
           {%- endif -%}
-          </p>
         </div>
         <img class="post-divider" src="/assets/img/divider.png">
       </li>
