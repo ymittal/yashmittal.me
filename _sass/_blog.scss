@@ -77,3 +77,10 @@
   transition: all 0.8s cubic-bezier(0.000, 0.000, 0.230, 1);
   background-position: 0%;
 }
+
+// fixes right arrow vertical alignment on smaller devices
+@media screen and (max-width: 768px) {
+  .right-arrow {
+    vertical-align: text-bottom;
+  }
+}
