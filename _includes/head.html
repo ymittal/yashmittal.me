@@ -1,8 +1,10 @@
 <head>
 	<title>
-    {%- assign extra = " | Yash Mittal" -%}
     {{ page.title | default: "Yash Mittal" }}
-    {%- if page.url != '/' -%}{{ extra }}{%- endif -%}
+    {%- assign extra = " | Yash Mittal" -%}
+    {%- if page.url != '/' -%}
+      {{ extra }}
+    {%- endif -%}
   </title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +12,12 @@
   <meta name="keywords" content="yash, mittal, yash mittal, bucknell, bucknell cs, acm, bucknell presidential fellow, edinburgh uni, study abroad, bhiwani, india, pinterest intern, akamai intern, google codeu, android">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   
+  {% if page.thumbnail %}
+    <meta property="og:image" content="{{ site.url | append: page.thumbnail }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url | append: "/favicon.ico" }}" />
+  {% endif %}
+
   {%- seo -%}
   {%- feed_meta -%}
 
