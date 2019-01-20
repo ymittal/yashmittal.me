@@ -23,6 +23,8 @@ github_username: ymittal
 facebook_username: imyashmittal
 linkedin_username: ymittal
 
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 theme: minima
