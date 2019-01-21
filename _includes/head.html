@@ -15,7 +15,7 @@
   {% if page.thumbnail %}
     <meta property="og:image" content="{{ site.url | append: page.thumbnail }}" />
   {% else %}
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="{{ site.url | append: "/assets/img/me.jpg" }}" />
   {% endif %}
 
   {%- seo -%}
