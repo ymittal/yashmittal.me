@@ -24,6 +24,7 @@ facebook_username: imyashmittal
 linkedin_username: ymittal
 
 permalink: pretty
+future: true
 
 # Build settings
 markdown: kramdown
