@@ -105,15 +105,14 @@
 .post-image {
   margin-top: 20px;
   margin-bottom: 25px;
+  text-align: center;
 
   // Prevent any whitespace positioning issues
   font-size: 0;
 
   img,
   video {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
   }
 
   & + .post-image {
