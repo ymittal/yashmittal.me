@@ -15,12 +15,12 @@
   {% if page.thumbnail %}
     <meta property="og:image" content="{{ site.url | append: page.thumbnail }}" />
   {% else %}
-    <meta property="og:image" content="{{ site.url | append: "/assets/img/me.jpg" }}" />
+    <meta property="og:image" content="{{ site.url | append: '/assets/img/me.jpg' }}" />
   {% endif %}
 
   {%- seo -%}
   {%- feed_meta -%}
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
