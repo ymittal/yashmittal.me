@@ -39,7 +39,7 @@ A few weeks back, two former employees (Black women) spoke up about how they wer
 
 --
 
-There's other events that either I'm still taking in or are too personal. Thanks to [Andy Puddicombe](https://www.headspace.com/andy-puddicombe), I am actually curious about my mind.
+There's other events that either I'm still taking in or are too personal. Thanks to [Andy Puddicombe](https://www.headspace.com/andy-puddicombe), I am becoming more curious about my mind.
 
 #### The good things
 
