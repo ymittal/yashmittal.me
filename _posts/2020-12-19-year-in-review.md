@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reflecting on 2020"
-date: 2020-12-15
+date: 2020-12-19
 length: 6 mins
 location: Salt Lake City, Utah
 thumbnail: /assets/posts/2020/dog.jpg
