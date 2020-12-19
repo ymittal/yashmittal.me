@@ -45,7 +45,7 @@ Quarantine started off well for me - I was laser-focused and had a healthy routi
 
 On top of this, I was infatuated with someone and that only worsened my mental being. Since then, I've had time to understand what happened and also friends like Tej and Pankaj bhaiya to talk through my feelings with. I'm glad that I didn't hold my emotions back, but I definitely don't want to put myself through the wringer ever again.
 
-My social life suffered and barring the occasional beach day or Dolores hangout, I wasn't having fun in San Francisco. I was looking for a change of pace.
+My social life took a blow, and barring the occasional beach day or Dolores hangout, I wasn't having fun in San Francisco. I was looking for a change of pace.
 
 ### Moving to Salt Lake
 
