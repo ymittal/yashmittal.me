@@ -3,7 +3,10 @@ layout: post
 date: 2025-01-15
 title: A Year of Daydreams
 permalink: /a-year-of-daydreams/
+location: Bhiwani, India
 ---
+
+<br>
 
 how do i salvage what remains  
 of your memory, now blurry and dim?  
