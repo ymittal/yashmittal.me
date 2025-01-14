@@ -3,62 +3,71 @@ title: Life
 permalink: /life/
 tags: [tabs]
 ---
+
 <!DOCTYPE html>
 <html>
-{%- include head.html -%}
-<link rel="stylesheet" href="/assets/css/jqvmap.min.css">
+  {%- include head.html -%}
+  <link rel="stylesheet" href="/assets/css/jqvmap.min.css" />
 
-<body>
+  <body>
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
-        <h1 class="page-heading wrapper">Life</h1>
-        <div class="places wrapper">
-            <h2>The Places I Have Been</h2>
-            <p>I am from Bhiwani, a mid-sized North-Indian city few hours west of New Delhi. I've been lucky to have <span class="highlight places-live">lived</span> in and <span class="highlight places-travel">traveled</span> to many places. Out of all cities I've visited, I highly recommend Edinburgh and Budapest.</p>
-        </div>
-        <div class="jqvmap">
-            <div id="vmap"></div>
-        </div>
+      <h1 class="page-heading wrapper">Life</h1>
+      <div class="places wrapper">
+        <h2>The Places I Have Been</h2>
+        <p>
+          I am from Bhiwani, a mid-sized town few hours west of New Delhi. I
+          currently live in San Francisco. I've been lucky to have
+          <span class="highlight places-live">lived</span> in and
+          <span class="highlight places-travel">traveled</span> to many places.
+          Out of all cities I've been to, I highly recommend Edinburgh.
+        </p>
+      </div>
+      <div class="jqvmap">
+        <div id="vmap"></div>
+      </div>
     </main>
     {%- include footer.html -%}
-</body>
-{%- include scripts.html -%}
-<script type="text/javascript" src="/assets/js/jquery.vmap.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.vmap.world.js"></script>
+  </body>
+  {%- include scripts.html -%}
+  <script type="text/javascript" src="/assets/js/jquery.vmap.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.vmap.world.js"></script>
 
-<script>
-const COLOR_LIVE = '#9093B2';
-const COLOR_TRAVEL = '#AE9EB6';
-// region codes: https://github.com/10bestdesign/jqvmap/blob/master/REGIONS.md
-jQuery('#vmap').vectorMap({
-    map: 'world_en',
-    hoverOpacity: 0.75,
-    enableZoom: false,
-    backgroundColor: null,
-    borderColor: '#ffffff',
-    borderOpacity: 0.1,
-    borderWidth: 0.5,
-    color: '#C8CCDA',   // unselected
-    colors: {
-        'ar': COLOR_TRAVEL, // Argentina
-        'be': COLOR_TRAVEL, // Belgium
-        'cz': COLOR_TRAVEL, // Czech
-        'eg': COLOR_TRAVEL, // Egypt
-        'fr': COLOR_TRAVEL, // France
-        'de': COLOR_TRAVEL, // Germany
-        'hu': COLOR_LIVE,   // Hungary
-        'in': COLOR_LIVE,   // India
-        'mx': COLOR_TRAVEL, // Mexico
-        'nl': COLOR_TRAVEL, // Netherlands
-        'pl': COLOR_TRAVEL, // Poland
-        'sk': COLOR_TRAVEL, // Slovakia
-        'gb': COLOR_LIVE,   // UK
-        'us': COLOR_LIVE,   // USA
-    },
-    onRegionClick: function(event, code, region) {
+  <script>
+    const COLOR_LIVE = "#9093B2";
+    const COLOR_TRAVEL = "#AE9EB6";
+    // region codes: https://github.com/10bestdesign/jqvmap/blob/master/REGIONS.md
+    jQuery("#vmap").vectorMap({
+      map: "world_en",
+      hoverOpacity: 0.75,
+      enableZoom: false,
+      backgroundColor: null,
+      borderColor: "#ffffff",
+      borderOpacity: 0.1,
+      borderWidth: 0.5,
+      color: "#C8CCDA", // unselected
+      colors: {
+        ar: COLOR_TRAVEL, // Argentina
+        at: COLOR_TRAVEL, // Austria
+        be: COLOR_TRAVEL, // Belgium
+        ca: COLOR_LIVE, // Canada
+        cz: COLOR_TRAVEL, // Czech
+        eg: COLOR_TRAVEL, // Egypt
+        fr: COLOR_TRAVEL, // France
+        de: COLOR_TRAVEL, // Germany
+        hu: COLOR_LIVE, // Hungary
+        in: COLOR_LIVE, // India
+        mx: COLOR_TRAVEL, // Mexico
+        nl: COLOR_TRAVEL, // Netherlands
+        pl: COLOR_TRAVEL, // Poland
+        sk: COLOR_TRAVEL, // Slovakia
+        ch: COLOR_TRAVEL, // Slovakia
+        gb: COLOR_LIVE, // UK
+        us: COLOR_LIVE, // USA
+      },
+      onRegionClick: function (event, code, region) {
         event.preventDefault();
-    }
-});
-</script>
-
+      },
+    });
+  </script>
 </html>

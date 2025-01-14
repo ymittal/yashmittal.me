@@ -13,17 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Yash Mittal
 email: yashmittal2009@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Yash Mittal's personal website. He's a senior studying Computer Science at Bucknell University.
-baseurl: ""
+baseurl: "" # Set this to "/" if the site is hosted in a subdirectory
 url: "https://yashmittal.me"
 github_username: ymittal
 facebook_username: imyashmittal
 linkedin_username: ymittal
 
-include: ['pages']
+include:
+  - pages
 
 permalink: pretty
 future: true
@@ -33,16 +35,18 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
+  # Uncomment the line below to enable jekyll-sitemap if it works for your setup
+  # - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+# Optional configurations for jekyll-sitemap and other plugins can go here.
