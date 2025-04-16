@@ -3,5 +3,5 @@
 Serve locally
 
 ```shell
-$ bundle exec jekyll serve --incremental
+$ rm -rf _site && bundle exec jekyll serve --incremental
 ```
