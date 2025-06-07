@@ -14,17 +14,17 @@ Hello 👋 I'm Yash. I live in San Francisco, California. Although this page may
 
 #### A little about me
 
-India, 1998. Born to Hindi, forced to English. To echo words of [Naval Ravikant](https://x.com/naval/status/966512979066765313?lang=en), I have a calm mind, am working toward a fit body, and am looking for a house full of love. Strictly monogamous.
+India, 1998. Born to Hindi, forced to English. To echo words of [Naval Ravikant](https://x.com/naval/status/966512979066765313?lang=en), I have a calm mind, am working toward a fit body, and am looking for a house full of love. Strictly monogamous. Have an older sister. Parents back in India.
 
-- I've moved a lot since covid, almost too much to the point that it's exhausting to even think about packing suitcases. Grateful for all experiences. I've spent my formative years outside India and have been away from home for 12 years. I'm currently a Software Engineer at Pinterest.
+- I've moved a lot since covid, almost too much to the point that it's exhausting to even think about packing suitcases. Grateful for all experiences. I've spent my formative years outside India and have been away from home for 12 years. I'm currently a Software Engineer.
 
-- I'm not a transactional person. It irks me when people give depending on what they've received in the past, in any relationship, not just romantic ones. I keep my friend circle small, and I'm happy to do things by myself - I don't want superficial connections. I am routinely alone, and I'm generally secure about this, although I have some off days.
+- I'm not a transactional person. It irks me when people give depending on what they've received in the past, in any relationship, not just romantic ones. I keep my friend circle small, and I'm happy to do things by myself - I don't want superficial connections. I am routinely alone, and I'm generally secure about this, although I have some off days too.
 
 - I don't like labels because I believe everyone's on some sort of spectrum. I don't know my MBTI, but I am more on the introverted side. It takes me a bit to open up and be vulnerable. I am obviously batshit crazy and act possessed around people I trust.
 
 - I grew up as a vegetarian. In meats, I only eat chicken (and sometimes salmon). I don't care if you eat/cook whatever!
 
-I want to live a life worth looking back at. I want to be proud of myself when I'm 80.
+**North star:** I want to be proud of myself when I'm 80. Actively working on being more present. At any given moment, I'm usually chipping away at my doc on life goals. That said, my life is not a checklist. Just vibing.
 
 #### What I'm looking for
 
@@ -56,4 +56,4 @@ In for the long haul and I'm happy to take things slowly. That said, patience al
 
 -
 
-If you made it this far, thank you :) I know it can be scary to reach out, but I promise I'll be nice to you. Please email me at **yashmittal2009 [at] gmail [dot] com**.
+If you made it this far, thank you :) Again, anything mentioned above is a nice-to-have. I am hopelessly optimistic in people, for better or for worse. I know it can be scary to reach out, but I promise I'll be nice to you. Please email me at **yashmittal2009 [at] gmail [dot] com**.
