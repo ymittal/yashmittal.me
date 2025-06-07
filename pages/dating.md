@@ -22,7 +22,9 @@ India, 1998. Born to Hindi, forced to English. To echo words of [Naval Ravikant]
 
 - I don't like labels because I believe everyone's on some sort of spectrum. I don't know my MBTI, but I am more on the introverted side. It takes me a bit to open up and be vulnerable. I am obviously batshit crazy and act possessed around people I trust.
 
-- I grew up as a vegetarian. In meats, I only eat chicken (and sometimes salmon). I don't care if you eat/cook whatever, but of course it would be lovely to be able to share most of our meals.
+- I grew up as a vegetarian. In meats, I only eat chicken (and sometimes salmon). I don't care if you eat/cook whatever, but of course it would be lovely to be able to share most of our meals. I also love cooking for others when I'm in the mood.
+
+- Homebody at heart but like to try any and all sports.
 
 **North star:** I want to be proud of myself when I'm 80. Actively working on being more present. At any given moment, I'm usually chipping away at my doc on life goals. That said, my life is not a checklist. Just vibing.
 
