@@ -16,7 +16,7 @@ Hello 👋 I'm Yash. I live in San Francisco, California. Although this page may
 
 India, 1998. Born to Hindi, forced to English. To echo words of [Naval Ravikant](https://x.com/naval/status/966512979066765313?lang=en), I have a calm mind, am working toward a fit body, and am looking for a house full of love. Strictly monogamous. Have an older sister. Parents back in India.
 
-- I've moved a lot since covid, almost too much to the point that it's exhausting to even think about packing suitcases. Grateful for all experiences. I've spent my formative years outside India and have been away from home for 12 years. I'm currently a Software Engineer.
+- I've moved a lot since covid, almost too much to the point that it's exhausting to even think about packing suitcases. Grateful for all experiences. I've spent my formative years outside India and have been away from home for 12 years. I'm currently a software engineer.
 
 - I'm not a transactional person. It irks me when people give depending on what they've received in the past, in any relationship, not just romantic ones. I keep my friend circle small, and I'm happy to do things by myself - I don't want superficial connections. I am routinely alone, and I'm generally secure about this, although I have some off days too.
 
