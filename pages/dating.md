@@ -22,7 +22,7 @@ India, 1998. Born to Hindi, forced to English. To echo words of [Naval Ravikant]
 
 - I don't like labels because I believe everyone's on some sort of spectrum. I don't know my MBTI, but I am more on the introverted side. It takes me a bit to open up and be vulnerable. I am obviously batshit crazy and act possessed around people I trust.
 
-- I grew up as a vegetarian. In meats, I only eat chicken (and sometimes salmon). I don't care if you eat/cook whatever!
+- I grew up as a vegetarian. In meats, I only eat chicken (and sometimes salmon). I don't care if you eat/cook whatever, but of course it would be lovely to be able to share most of our meals.
 
 **North star:** I want to be proud of myself when I'm 80. Actively working on being more present. At any given moment, I'm usually chipping away at my doc on life goals. That said, my life is not a checklist. Just vibing.
 
@@ -38,9 +38,7 @@ In for the long haul and I'm happy to take things slowly. That said, patience al
 
 - Non-judgemental. My best friendships are with people who are kind in their hearts and deeply care about understanding each other.
 
-- A partnership full of growth. Someone who supports the other person's dreams, someone who's soft and candid. We laugh easily and tease each other. Good chemistry and intimacy. No topic is off the table and no walking on egg shells.
-
-- Someone down to explore, preferably not to "escape their reality." I want to see cool places, hear fun stories from strangers, and adventure. My travels aren't always vacation-y/comfortable, but I can adjust depending on my company.
+- A partnership full of growth. Someone who supports the other person thru the ups and downs, someone soft and candid. We laugh easily and tease each other. Good chemistry and intimacy. No topic is off the table and no walking on egg shells.
 
 - A beautiful smile.
 
