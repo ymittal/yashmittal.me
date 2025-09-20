@@ -1,14 +1,14 @@
 ---
 layout: post
-date: 2025-06-06
+date: 2025-09-19
 title: Date Me
 permalink: /dating/
 # location: San Francisco, USA
 ---
 
-<!-- `Last updated: June 6` -->
+<!-- `Last updated: September 19` -->
 
-Hello 👋 I'm Yash. I live in San Francisco, California. Although this page may suggest otherwise, I'm not super tech bro-y. I spend an ungodly amount of time in front of screens, yet I'm technologically challenged. This is a running doc on my personality as well as what I'm looking for in a partner.
+Hello 👋 I'm Yash. I live in San Francisco, California. Although this page may suggest otherwise, I'm not super tech bro-y. I spend a good amount of time in front of screens, yet I'm quite technologically challenged. This is a running doc on my personality as well as what I'm looking for in a partner.
 
 **Preface:** I don't have a laundry list of filters. I'm not perfect, and I don't expect my partner to be either. Importantly, I don't look for finished products.
 
@@ -24,13 +24,13 @@ India, 1998. Born to Hindi, forced to English. To echo words of [Naval Ravikant]
 
 - I grew up as a vegetarian. In meats, I only eat chicken (and sometimes salmon). I don't care if you eat/cook whatever, but of course it would be lovely to be able to share most of our meals. I also love cooking for others when I'm in the mood.
 
-- Homebody at heart but like to try any and all sports.
+- Homebody at heart but try my best to not miss a sunny day. Like to try any and all sports.
 
-**North star:** I want to be proud of myself when I'm 80. Actively working on being more present. At any given moment, I'm usually chipping away at my doc on life goals. That said, my life is not a checklist. Just vibing.
+**North star:** I want to be proud of myself when I'm 80. Actively working on being more present. At any given moment, I'm usually chipping away at my doc on life goals. Mostly just vibing though.
 
 #### What I'm looking for
 
-- Someone who hyper-fixates on the positives. Spending years together is not going to be easy if we can't look past the trivial/unimportant. I default to seeing the good in people way before their flaws, and I'd like to be with someone who leans the same way.
+- Someone who hyperfixates on the positives. Spending years together is not going to be easy if we can't look past the trivial/unimportant. I default to seeing the good in people way before their flaws, and I'd like to be with someone who leans the same way.
 
 - Patience. One of my favorite quotes from A Gentleman in Moscow:
 
@@ -41,6 +41,8 @@ In for the long haul and I'm happy to take things slowly. That said, patience al
 - Non-judgemental. My best friendships are with people who are kind in their hearts and deeply care about understanding each other.
 
 - A partnership full of growth. Someone who supports the other person thru the ups and downs, someone soft and candid. We laugh easily and tease each other. Good chemistry and intimacy. No topic is off the table and no walking on egg shells.
+
+- **If** you're Indian, I'd love to be able to speak Hindi with you, although it's not a must-have. I am also typically not attracted to Indians who grew up outside India (ABCDs etc).
 
 - A beautiful smile.
 
