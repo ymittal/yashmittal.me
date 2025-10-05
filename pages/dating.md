@@ -42,7 +42,7 @@ In for the long haul and I'm happy to take things slowly. That said, patience al
 
 - A partnership full of growth. Someone who supports the other person thru the ups and downs, someone soft and candid. We laugh easily and tease each other. Good chemistry and intimacy. No topic is off the table and no walking on egg shells.
 
-- **If** you're Indian, I'd love to be able to speak Hindi with you, although it's not a must-have. I am also typically not attracted to Indians who grew up outside India (ABCDs etc).
+- **If** you're Indian, I'd love to be able to speak Hindi with you, although it's not a must-have. I am also typically more attracted to Indians who grew up in India - easier to connect.
 
 - A beautiful smile.
 
