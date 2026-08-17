@@ -4,6 +4,8 @@ date: 2025-09-19
 title: Date Me
 permalink: /dating/
 # location: San Francisco, USA
+noindex: true
+sitemap: false
 ---
 
 <!-- `Last updated: September 19` -->

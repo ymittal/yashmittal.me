@@ -4,6 +4,8 @@ date: 2025-01-15
 title: A Year of Daydreams
 permalink: /a-year-of-daydreams/
 location: Bhiwani, India
+noindex: true
+sitemap: false
 ---
 
 <br>

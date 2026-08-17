@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Yash Mittal
+tagline: Software engineer and writer in San Francisco
 email: yashmittal2009@gmail.com
 description: >-
   Yash Mittal's personal website. He's a software engineer based in San Francisco.
@@ -35,8 +36,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  # Uncomment the line below to enable jekyll-sitemap if it works for your setup
-  # - jekyll-sitemap
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
