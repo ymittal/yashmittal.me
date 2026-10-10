@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="596" height="42" viewBox="0 0 596 42">
+  <!-- Masks hide rear outlines beneath the front petals, preserving transparency. -->
+  <defs>
+    <path id="back" d="M301 32C288 26 286 18 301 1C316 18 314 26 301 32Z"/>
+    <path id="outer-left" d="M301 33C287 32 279 21 278 10C289 16 297 14 301 33Z"/>
+    <path id="outer-right" d="M301 33C315 32 323 21 324 10C313 16 305 14 301 33Z"/>
+    <path id="inner-left" d="M301 33C286 31 285 18 288 5C298 14 306 25 301 33Z"/>
+    <path id="inner-right" d="M301 33C316 31 317 18 314 5C304 14 296 25 301 33Z"/>
+    <path id="low-left" d="M301 33C288 36 276 29 269 24C281 22 291 27 301 33Z"/>
+    <path id="low-right" d="M301 33C314 36 326 29 333 24C321 22 311 27 301 33Z"/>
+    <path id="center" d="M301 33C288 29 294 21 301 13C308 21 314 29 301 33Z"/>
+    <mask id="visible-back" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#outer-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#outer-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#inner-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#inner-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+    <mask id="visible-outer-left" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#outer-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#inner-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#inner-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+    <mask id="visible-outer-right" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#inner-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#inner-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+    <mask id="visible-inner-left" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#inner-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+    <mask id="visible-inner-right" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#low-left" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#low-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+    <mask id="visible-low-left" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#low-right" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+    <mask id="visible-low-right" maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="42">
+      <rect width="596" height="42" fill="white"/>
+      <use href="#center" fill="black" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g fill="none" stroke="#999" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 25.5H266M336 25.5H596"/>
+    <use href="#back" mask="url(#visible-back)"/>
+    <use href="#outer-left" mask="url(#visible-outer-left)"/>
+    <use href="#outer-right" mask="url(#visible-outer-right)"/>
+    <use href="#inner-left" mask="url(#visible-inner-left)"/>
+    <use href="#inner-right" mask="url(#visible-inner-right)"/>
+    <use href="#low-left" mask="url(#visible-low-left)"/>
+    <use href="#low-right" mask="url(#visible-low-right)"/>
+    <use href="#center"/>
+    <path d="M291 36Q297 38 301 41Q305 38 311 36"/>
+  </g>
+</svg>

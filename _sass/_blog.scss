@@ -12,6 +12,10 @@
   text-align: left;
 }
 
+.excerpt-ending {
+  white-space: nowrap;
+}
+
 .post-title {
   display: block;
   text-align: center;
@@ -86,7 +90,8 @@
 }
 
 .post-content::after {
-  @include retina-background-image("/assets/img/divider");
+  background-image: url("/assets/img/divider.svg");
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-color: transparent;

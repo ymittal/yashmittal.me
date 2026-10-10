@@ -28,7 +28,9 @@ layout: blog-default
         </header>
         <div class="post-content post-list-item-excerpt">
           {%- if post.excerpt -%}
-            {{ post.excerpt | truncatewords: 50 }} <a href="{{ post.url | relative_url }}"><span class="right-arrow">⟶</span></a>
+            {%- assign excerpt_words = post.excerpt | strip_html | normalize_whitespace | truncatewords: 50 | split: ' ' -%}
+            {%- assign leading_word_count = excerpt_words.size | minus: 1 -%}
+            <p>{{ excerpt_words | slice: 0, leading_word_count | join: ' ' }} {% if excerpt_words.size > 0 %}<span class="excerpt-ending">{{ excerpt_words | last }} <a href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}"><span class="right-arrow" aria-hidden="true">⟶</span></a></span>{% endif %}</p>
           {%- endif -%}
         </div>
       </li>
